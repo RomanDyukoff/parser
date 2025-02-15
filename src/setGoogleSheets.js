@@ -30,7 +30,7 @@ const auth = new google.auth.GoogleAuth({
 	scopes: ['https://www.googleapis.com/auth/spreadsheets'],
 });
 
-const spreadsheetId = '16MMKjiI43TpRZuLPXCmMMrwnUpS2SUHGVZsZ3TvNduc';
+const spreadsheetId = '';
 
 async function readFromSheet() {
 	try {
